@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 80vh;
+    width: 80%;
+    background-color: royalblue;
+    display: flex;
+    flex-direction: row; /* Default */
+    
+    /* justify-item work on X-axis. */
+    justify-content: center;
+    
+    /* flex - flex-start, flex-end, center, space-between, space-around, space-evenly. */
+    
+    /* align-item work on Y-axis. */
+    align-items: center;
+
+    gap: 50px;
+
+    flex-wrap: wrap;
+}
+
+.item{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    font-size: 30px;
+    border: 2px solid black;
+}
+
+/* 
+
+vw - include / add width of Scroll bar.
+% - don't add width of Scroll bar.
+
+NOTE :- 
+
+1. Flex has by default direction 'row'.
+
+2. If flex-direction = row then justify = work on X-axis.
+                                align = work on Y-axis.
+    
+    If flex-direction = column then justify = work on Y-axis.
+                                align = work on X-axis.
+
+*/

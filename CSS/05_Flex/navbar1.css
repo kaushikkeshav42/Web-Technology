@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #dce5ec;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 20px;
+}
+
+.navbar{
+    background-color: #1e2125;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    border-radius: 2px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.logo{
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links a{
+    color: #c2c8d0;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover{
+    color: #ffffff;
+}
+
+.btn-contact{
+    background-color: #008cb4;
+    color: #ffffff;
+    padding: 8px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.btn-contact:hover{
+    background-color: #00a4d3;
+}
+
+.nav-content{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar-variant-1{
+    justify-content: flex-start;
+    gap: 50%;
+}
+
+.navbar-variant-1.nav-links{
+    margin-left: 50%;
+}

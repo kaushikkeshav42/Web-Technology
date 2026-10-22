@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.card{
+    height: 500px;
+    width: 400px;
+    border-radius: 5px;
+    background-color: white;
+    border: 5px solid gainsboro;
+    box-shadow: 0 0 5px gainsboro;
+    margin: 50px auto;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.head{
+    margin: 20px;
+}
+
+.content{
+    margin: 20px;
+}
+
+input{
+
+    width: 90%;
+}
+
+.content > input{
+    width: 90%;
+    height: 100%;
+    border: none;
+    outline: none;
+}

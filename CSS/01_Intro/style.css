@@ -1,0 +1,23 @@
+@import url(./basic.css);
+
+html{
+    --primary : pink;
+}
+
+h3{
+    /* CSS Variables.*/
+    --qsp : aqua;
+    --b7 : red;
+    background-color: var(--qsp);
+    color: var(--b7);
+}
+
+div{
+    background-color: greenyellow !important;
+    color: var(--primary);
+}
+
+/*
+-> Variable can work only inside that block where it is declared.
+-> If We need to create the Global Variable the we must declare our variable inside the html{} tag.
+*/

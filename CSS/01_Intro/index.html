@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h2 {
+            background-color: red;
+        }
+
+        div {
+            background-color: royalblue;
+        }
+    </style>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <h1 style="background-color: yellow;">
+        Style me using Inline CSS.
+    </h1>
+
+    <h2>
+        Style me using Internal CSS.
+    </h2>
+
+    <h3>
+        Style me using External CSS.
+    </h3>
+
+    <hr>
+
+    <div style="background-color: violet;">
+        I am Div.
+    </div>
+
+</body>
+
+</html>
+
+<!--
+Ways to use CSS :- 
+1. Inline CSS -  used by Style attribute. Ex - style attribute.
+2. Internal CSS - used by Style tag. Ex - <style></style>.
+3. External CSS - used by external CSS file. Ex - style.css.
+4. Import CSS - used to link any CSS file with other CSS file.
+
+NOTE :- 
+1. Browser read the HTML Code Top to Bottom.
+2. Ways of CSS Priority :-
+   Inline CSS > External CSS > Internal CSS.
+3. This priority is based on Browser readability as whichever statement we write at the end that change will persist
+   all other changes will be override.
+4. It is advised to do External CSS for Code Optimization, Code readability and Code management.
+5. !important - it is used to over power all priority of CSS and whichever has !important has the maximum priority.
+6. CSS also has Variables and Functions.
+   Ex  - url() - Function.
+   Variable is Declared in CSS using --variable_name : Value_inside_variable;
+-->>

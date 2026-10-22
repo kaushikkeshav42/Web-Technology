@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: cursive;
+            background-color: whitesmoke;
+        }
+
+        #head {
+            background-color: yellow;
+            /* id selector using '#'.*/
+        }
+
+        .content {
+            background-color: aqua;
+            /* class selector using '.'.*/
+        }
+
+        h4 {
+            background-color: pink;
+            /* element selector using 'tagname - h4'.*/
+        }
+
+        /* Using group selector grouping various selectors simultaneously. */
+        #navbar,
+
+        footer,
+
+        .page_header {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>
+        Learn Simple Selectors.
+    </h1>
+
+    <h1 id="head">
+        Style me using ID
+    </h1>
+
+    <h2 class="content">
+        Style me using Class.
+    </h2>
+
+    <h3 class="content">
+        Style me using Class.
+    </h3>
+
+    <p class="content">
+        Style me using Class.
+    </p>
+
+    <h4>Style me using element Selector. </h4>
+    <h4>Style me using element Selector. </h4>
+    <h4>Style me using element Selector. </h4>
+
+    <!-- Semantic tags - Who's name clear their functions. All following are Semantic tags. -->
+
+    <nav id="navbar">I am Nav.</nav>
+
+    <footer>I am Footer.</footer>
+
+    <header class="page_header">I am Header.</header>
+
+</body>
+
+</html>
+
+<!-- 
+
+-> Selectors are used to target HTML Elements and apply Styling to them.
+
+-> There are 5 types of Simple Selectors :-
+
+    1. id - used to target unique element. Symbol - '#'. It is a Global attribute.
+    2. class - used to target multiple similar or different elements. Symbol - '.'
+    3. element - used to target multiple similar elements. Symbol - 'tagname'
+    4. group - used to grooup multiple elements. Symbol - ','
+    5. universal - used to target all elements in webpage. Symbol - '*'
+        Universal selector must be on top inside style tag.
+
+-->

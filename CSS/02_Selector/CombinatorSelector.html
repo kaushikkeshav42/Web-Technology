@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* Decendent Selector using with empty space ' ' */
+        section div {
+            background-color: yellow;
+        }
+
+        /* Child Selector using with '>' */
+        section>div {
+            background-color: red;
+        }
+
+        /* General sibling using with '~' */
+        section~div {
+            background-color: aqua;
+        }
+
+        /* Adjacent sibling using with '+' */
+        section+div {
+            background-color: blue;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Learn Combinator Selector.</h1>
+
+    <!-- 
+    There are 4 types of Combinator Selectors :-
+    
+    1. Decendent : targets direct child as well as nested child elements.
+    -> Denoted by - empty space ' '.
+
+    2. Child : targets direct child elements.
+    -> Denoted by - Greater than Symbol '>'.
+
+    3. General Siblings : targets multiple elements after the closing tag.
+    -> Denoted by - tilde symbol '~'.
+
+    4. Adjacent Siblings : targets single element which is immediate after the closing tag.
+    -> Denoted by - plus symbol '+'.
+    
+    -->
+
+    <section>
+
+        <div>
+            div 1
+        </div>
+
+        <div>
+            div 2
+        </div>
+
+        <article>
+
+            <div>
+                div 3
+            </div>
+
+            <div>
+                div 4
+            </div>
+
+        </article>
+
+        <div>
+            div 5
+        </div>
+
+    </section>
+
+    <div>
+        div 6
+    </div>
+
+    <div>
+        div 7
+    </div>
+
+    <nav>
+        nav 1
+
+        <div>
+            div 8
+        </div>
+
+    </nav>
+
+    <div>
+        div 9
+    </div>
+
+</body>
+
+</html>

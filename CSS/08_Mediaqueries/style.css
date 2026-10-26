@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mobile 1st approach */
+
+h1{
+    background-color: lightgrey;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+    transition: 0.2s;
+}
+
+/* Mobile 'S' */
+@media (min-width : 320px) {
+    h1{
+        background-color: lightblue;
+        font-size: 14px;
+        padding: 8px;
+    }
+    
+}
+
+/* Mobile 'M' */
+@media (min-width : 375px) {
+    h1{
+        background-color: lightgreen;
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+/* Mobile 'L' */
+@media (min-width : 425px) {
+    h1{
+        background-color: lightcyan;
+        font-size: 18px;
+        padding: 12px;
+    }
+}
+
+/* Tablet */
+@media (min-width : 768px) {
+    h1{
+        background-color: lightcoral;
+        font-size: 20px;
+        padding: 14px;
+    }
+}
+
+/* Laptop */
+@media (min-width : 1024px) {
+    h1{
+        background-color: lightpink;
+        font-size: 22px;
+        padding: 16px;
+    }
+}
+
+/* Laptop L */
+@media (min-width : 1440px) {
+    h1{
+        background-color: lightsalmon;
+        font-size: 24px;
+        padding: 18px;
+    }
+}
